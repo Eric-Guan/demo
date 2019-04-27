@@ -1,0 +1,6 @@
+Buffer的使用
+从案例2中可以总结出使用Buffer一般遵循下面几个步骤：
+
+分配空间（ByteBuffer buf = ByteBuffer.allocate(1024); 还有一种allocateDirector后面再陈述）
+
+写入数据到Buffer(int bytesRead = fileChannel.read(buf);)
